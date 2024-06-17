@@ -8,4 +8,3 @@
 ## Extensions
 
 - `advanced.js`
-# objects_arrays_scope_lab
