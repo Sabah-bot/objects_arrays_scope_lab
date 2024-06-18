@@ -32,26 +32,18 @@ unitedKingdom = [
    * Q1. Add some tourist attractions to England
    */
   
-  for (let i = 0; i < unitedKingdom.length; i++) {
-    if (unitedKingdom[i].name === "England") {
-        unitedKingdom[i].touristAttractions = ["Big Ben", "London Eye", "Tower of London"];
-        england = unitedKingdom[i];
-        break;
-    }
-  }
+  england = unitedKingdom[1];
+  england.touristAttractions = ["Buckingham Palace", "Big Ben"];
+  console.log(england);
   console.log(england);
   
   /**
    * Q2. Change the capital of Wales to "Cardiff"
    */
   
-  for (let i = 0; i < unitedKingdom.length; i++) {
-    if (unitedKingdom[i].name === "Wales") {
-        unitedKingdom[i].capital = "Cardiff";
-        wales = unitedKingdom[i];
-        break;
-    }
-}
+  wales = unitedKingdom[2];
+  wales.capital = "Cardiff";
+  console.log(wales);
   
   console.log(wales);
   
