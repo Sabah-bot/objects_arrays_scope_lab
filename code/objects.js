@@ -44,7 +44,7 @@ console.log("The cat is a " + catBreed);
  * Q3. It's the tortoise's birthday! Add one to her current age.
  */
 
-const age = 13;
+const age = 7;
 tortoiseAge= age + 1; 
 console.log(tortoiseAge)
 
@@ -53,7 +53,7 @@ console.log(tortoiseAge)
  */
 
 
-dogColourCount = 3;
+dogColourCount = 2;
 console.log("The dog has " + dogColourCount + " different colours");
 
 /**
@@ -80,8 +80,6 @@ console.log(tortoise);
  */
 
 
-dogAge = 4;
-catAge = 9;
 totalPetAge = dogAge + catAge + tortoiseAge;
 console.log("The total age of the pets is " + totalPetAge);
 
